@@ -1,0 +1,207 @@
+
+*{
+  font-family:	Arial;
+}
+
+.outer{
+  width: 1050px;
+  height: 1500px;
+  border: solid;
+  display:inline-block;
+  margin-right:100px;
+}
+
+.box {
+  margin: 20px;
+  box-sizing: border-box;
+  height:100%;
+  padding-bottom: 120px;
+  }
+
+.name {
+  background-color: #9aa366;
+  color: #ffffff;
+  text-align: right;
+  height: 60px;
+  padding: 20px 30px 0px 0px;
+}
+
+.content {
+  width:100%;
+  height:100%;
+  margin: 0px;
+}
+
+.work {
+  width: 70%;
+  height: 100%;
+  background-color:#e0ef70;
+  display:inline-block;
+}
+
+.summary {
+  background-color:#454734;
+    width: 30%;
+  height: 100%;
+  float: right;
+  display:flex;
+  flex-direction:column;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.button {
+  position: absolute;
+  display: inline-block;
+  width:auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.work1{
+  padding-left:20px;
+}
+
+.work2{
+  padding-left:20px;
+}
+
+.work3{
+  padding-left:20px;
+}
+
+.work4{
+  padding-left:20px;
+}
+
+.work5{
+  padding-left:20px;
+}
+
+.work6{
+  padding-left:20px;
+}
+
+.study {
+  display:inline-flex;
+}
+
+.year1 {
+  float:right;
+  margin-right:20px;
+  display:inline-flex;
+  font-size:15px;
+}
+
+.year2 {
+  float:right;
+  display:inline-flex;
+  margin-right:20px;
+  
+}
+
+.list2 {
+  display:inline-block;
+}
+
+.summary{
+  color:white;
+}
+
+.picture {
+  display:inline-flex;
+  border:solid;
+  width:270px;
+  height:270px;
+  position:relative;
+  align-self:center;
+  margin-top:10px;
+  border-radius:50%;
+}
+
+.info {
+  display:inline;
+  word-wrap: break-word;
+  padding-left:20px;
+  font-size:15px;
+  font-color:#ffffff;
+}
+
+.skillbox{
+  padding-left:20px;
+}
+
+.box1 {
+  width:250px;
+  height:20px;
+  position:absolute;
+  background-color:grey;
+}
+
+.box11 {
+  width:200px;
+  height:20px;
+  background-color:white;
+  position:absolute;
+}
+
+.box22 {
+  width:130px;
+  height:20px;
+  background-color:white;
+  position:absolute;
+}
+
+.box33 {
+  width:230px;
+  height:20px;
+  background-color:white;
+  z-index:2;
+  position:absolute;
+}
+
+
+.hobby {
+  padding-left:20px;
+  margin-top:20px;
+}
